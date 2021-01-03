@@ -1,0 +1,33 @@
+$git init
+$git add .
+$git commit -m “version1.0″
+$git remote add origin https://github.com/usuario/repositorio
+$ git remote -v
+$ git push origin master﻿
+Todo lo que se tiene que saber 
+
+Instala Git Bash en tu computadora utilizando la terminal. Lo puedes descargar del siguiente link: https://git-scm.com/downloads
+Ingresa a www.github.com y crea un repositorio publico en tu cuenta de Github.
+
+Abre la terminal y navega con el comando “cd” a la carpeta de tu proyecto.
+Dentro de tu proyecto escribe: $git init
+Agrega los archivos a tu nuevo repositorio local utilizando el siguiente comando (no olvides el punto después de “add”): $git add .
+Para entender el siguiente paso, es necesario entender el significado de “commit”. Commit es un comando que va creando distintas versiones del proyecto. Conforme vayamos avanzando, creando nuevos archivos y mejorando el proyecto, podemos ir guardando las distintas versiones en github, para esto será necesario que hagamos un commit cada ves que queramos crear una nueva versión. Utilizando el siguiente código: $git commit -m “version1.0″
+Ahora, es necesario en la terminal ir al repositorio git (la carpeta del proyecto) y estando dentro pegar el siguiente código: $git remote add origin https://github.com/usuario/repositorio
+Ahora, es necesario poner el siguiente código: $ git remote -v
+El ultimo paso escribir en la terminal: $ git push origin master
+Si te sirvió te agradecería muchísimo si me sigues en alguna de mis redes sociales me motivaras muchísimo. Estoy en todas como @soyfetaga
+
+or create a new repository on the command line
+echo "# Subir_repositorios_con_git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/920052859/Subir_repositorios_con_git.git
+git push -u origin main
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/920052859/Subir_repositorios_con_git.git
+git branch -M main
+git push -u origin main
