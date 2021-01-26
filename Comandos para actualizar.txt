@@ -1,0 +1,23 @@
+ git init
+Reinitialized existing Git repository in C:/Users/DANIPZA/Desktop/pylinRDigitalC++/subir_git/.git/
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/subir_git (main)
+$ git add -A
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/subir_git (main)
+$ git commit -u
+[main e025b84] Es lo que siempre  deberia salir
+ 1 file changed, 92 insertions(+)
+ create mode 100644 Comandos exactos.txt
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/subir_git (main)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.30 KiB | 1.30 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/920052859/Subir_repositorios_con_git.git
+   61f01b6..e025b84  main -> main
