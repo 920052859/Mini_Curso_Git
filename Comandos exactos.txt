@@ -1,0 +1,92 @@
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/deteccion-objetos-video (master)
+$ git init
+Initialized empty Git repository in C:/Users/DANIPZA/Desktop/pylinRDigitalC++/deteccion-objetos-video/.git/
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/deteccion-objetos-video (master)
+$ git add -A
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/deteccion-objetos-video (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   config/coco.data
+        new file:   config/create_custom_model.sh
+        new file:   config/custom.data
+        new file:   config/yolov3.cfg
+        new file:   data/coco.names
+        new file:   data/custom/classes.names
+        new file:   data/custom/images/.gitkeep
+        new file:   data/custom/labels/.gitkeep
+        new file:   deteccion_video.py
+        new file:   detect.py
+        new file:   models.py
+        new file:   requirements.txt
+        new file:   split_train_val.py
+        new file:   test.py
+        new file:   train.py
+        new file:   utils/__init__.py
+        new file:   utils/augmentations.py
+        new file:   utils/datasets.py
+        new file:   utils/logger.py
+        new file:   utils/parse_config.py
+        new file:   utils/utils.py
+        new file:   weights/LOQueTenemosQUeDescargar.txt
+        new file:   weights/download_darknet.sh
+        new file:   weights/download_weights.sh
+
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/deteccion-objetos-video (master)
+$ git commit -u
+[master (root-commit) 39b3060] Son todos los  archivos para poder utilizar yolo3
+ 26 files changed, 3436 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 config/coco.data
+ create mode 100644 config/create_custom_model.sh
+ create mode 100644 config/custom.data
+ create mode 100644 config/yolov3.cfg
+ create mode 100644 data/coco.names
+ create mode 100644 data/custom/classes.names
+ create mode 100644 data/custom/images/.gitkeep
+ create mode 100644 data/custom/labels/.gitkeep
+ create mode 100644 deteccion_video.py
+ create mode 100644 detect.py
+ create mode 100644 models.py
+ create mode 100644 requirements.txt
+ create mode 100644 split_train_val.py
+ create mode 100644 test.py
+ create mode 100644 train.py
+ create mode 100644 utils/__init__.py
+ create mode 100644 utils/augmentations.py
+ create mode 100644 utils/datasets.py
+ create mode 100644 utils/logger.py
+ create mode 100644 utils/parse_config.py
+ create mode 100644 utils/utils.py
+ create mode 100644 weights/LOQueTenemosQUeDescargar.txt
+ create mode 100644 weights/download_darknet.sh
+ create mode 100644 weights/download_weights.sh
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/deteccion-objetos-video (master)
+$ git remote add origin https://github.com/920052859/Detecciones_Objetos_YOLO.git
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/deteccion-objetos-video (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (32/32), 24.02 KiB | 2.67 MiB/s, done.
+Total 32 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/920052859/Detecciones_Objetos_YOLO.git
+ * [new branch]      master -> master
+
+DANIPZA@LAPTOP-V6O06PHS MINGW64 ~/Desktop/pylinRDigitalC++/deteccion-objetos-video (master)
+$
